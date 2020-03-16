@@ -1,0 +1,872 @@
+<!-- Book 1-->
+
+    <div id="container" style=" width: 100%; height: 100vh; display: flex; justify-content: center;align-items: center;">
+        <div class="book-content" style="margin-bottom: 89px;">
+            <div class="book">
+                <div class="face-front" id="portada"></div>
+                <!--Front Page  -->
+                <div class="face-back" id="trsf" style="overflow: auto;">
+                    <h1>Veg</h1>
+                    <!-- Top Menu -->
+                    <div class="btn-group" style="float: right; margin-right: 74px;">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Choose...
+               s         </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#noodles"> <button class="dropdown-item" type="button">Noodles</button></a>
+                            <a href="#Manchurian"><button class="dropdown-item" type="button">Manchurian</button></a>
+                            <a href="#Chinese"> <button class="dropdown-item" type="button">Chinese Combo</button></a>
+                            <a href="#Rice"> <button class="dropdown-item" type="button">Rice</button></a>
+                        </div>
+                    </div>
+                    <!-- End TOp Menu-->
+                    <!-- Page 1 Contents Table -->
+                    <table id="noodles" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Noodles</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Veg. Soft Noodles</th>
+                                <td>
+                                    <div class="form-check form-check-inline">    
+                                        <input  class="form-check-input" type="checkbox" id="Veg. Soft Noodles  $50" title="Veg. Soft Noodles  $50" onclick="add_element(this)">
+                                        <label class="input-group-text"   style="height: 39px;" for="Veg. Soft Noodles  $50"> 50</label><br>
+  
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Veg. Soft Noodles  $80"  title="Veg. Soft Noodles  $80" onclick="add_element(this)">
+                                        <label class="input-group-text"  style="height: 39px;" for="Veg. Soft Noodles  $80">80</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Veg. Soft Noodles  $100" title="Veg. Soft Noodles  $100" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Veg. Soft Noodles  $100" >100</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Butter Noodles</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Butter Noodles $40" title="Butter Noodles $40" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Butter Noodles $40" >40</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Butter Noodles $70" id="Butter Noodles $70" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Butter Noodles $70">70</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Butter Noodles $100" id="Butter Noodles $100" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Butter Noodles $100">100</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Singapore Noodles</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Singapore Noodles $60" id="Singapore Noodles $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Singapore Noodles $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox"  title="Singapore Noodles $90" id="Singapore Noodles $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Singapore Noodles $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Singapore Noodles $150" id="Singapore Noodles $150" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Singapore Noodles $150" >150</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Manchurian Noodles</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Manchurian Noodles $60" id="Manchurian Noodles $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Manchurian Noodles $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Manchurian Noodles $90" title="Manchurian Noodles $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Manchurian Noodles $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Manchurian Noodles $160" onclick="add_element(this)" id="Manchurian Noodles $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Manchurian Noodles $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="Manchurian" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Manchurian</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Veg Manchurian Dry</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Veg Manchurian Dry $60" id="Veg Manchurian Dry $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Manchurian Dry $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Veg Manchurian Dry $90" title="Veg Manchurian Dry $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Manchurian Dry $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Veg Manchurian Dry $160" onclick="add_element(this)" id="Veg Manchurian Dry $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Manchurian Dry $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Butter Manchurian</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Butter Manchurian $60" id="Butter Manchurian $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Butter Manchurian $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Butter Manchurian $90" title="Butter Manchurian $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Butter Manchurian $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Butter Manchurian $160" onclick="add_element(this)" id="Butter Manchurian $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Butter Manchurian $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Chilly Manchurian</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Chilly Manchurian $60" id="Chilly Manchurian $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Chilly Manchurian $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Chilly Manchurian $90" title="Chilly Manchurian $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Chilly Manchurian $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Chilly Manchurian $160" onclick="add_element(this)" id="Chilly Manchurian $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Butter Manchurian $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Name 1 $60" id="Name 1 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Name 1 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Name 1 $90" title="Name 1 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Name 1 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Name 1 $160" onclick="add_element(this)" id="Name 1 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Name 1 $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table id="Chinese" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Chinese</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Combo1 (Noodles + Manchurian Dry )</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Combo1 (Noodles + Manchurian Dry ) $60" id="Combo1 (Noodles + Manchurian Dry ) $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Combo1 (Noodles + Manchurian Dry ) $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Combo1 (Noodles + Manchurian Dry ) $90" title="Combo1 (Noodles + Manchurian Dry ) $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo1 (Noodles + Manchurian Dry ) $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Combo1 (Noodles + Manchurian Dry ) $160" onclick="add_element(this)" id="Combo1 (Noodles + Manchurian Dry ) $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo1 (Noodles + Manchurian Dry ) $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Combo2  </th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Combo2 $60" id="Combo2 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Combo2 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Combo2 $90" title="Combo2 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo2 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Combo2 $160" onclick="add_element(this)" id="Combo2 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo2 $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">combo3</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Combo3 $60" id="Combo3 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Combo3 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Combo3 $90" title="Combo3 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo3 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Combo3 $160" onclick="add_element(this)" id="Combo3 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo3 $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">combo4</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Combo4 $60" id="Combo4 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Combo4 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Combo4 $90" title="Combo4 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo4 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Combo4 $160" onclick="add_element(this)" id="Combo4 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Combo4 $160">160</label>
+                                    </div>
+                                </td>                            
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table id="Rice" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Rice</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Veg Fried 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Veg Fried 1 $60" id="Veg Fried 1 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 1 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Veg Fried 1 $90" title="Veg Fried 1 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 1 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Veg Fried 1 $160" onclick="add_element(this)" id="Veg Fried 1 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 1 $160">160</label>
+                                    </div>
+                                </td>  
+                            </tr>
+                            <tr>
+                                <th scope="row">Veg Fried 2</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Veg Fried 2 $60" id="Veg Fried 2 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 2 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Veg Fried 2 $90" title="Veg Fried 2 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 2 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Veg Fried 2 $160" onclick="add_element(this)" id="Veg Fried 2 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 2 $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Veg fried 3</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="Veg Fried 3 $60" id="Veg Fried 3 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 3 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="Veg Fried 3 $90" title="Veg Fried 3 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 3 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="Veg Fried 3 $160" onclick="add_element(this)" id="Veg Fried 3 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="Veg Fried 3 $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">friend 4</th>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" title="friend 4 $60" id="friend 4 $60" onclick="add_element(this)" >
+                                        <label class="input-group-text" style="height: 39px;" for="friend 4 $60">60</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline" >
+                                        <input class="form-check-input" type="checkbox" id="friend 4 $90" title="friend 4 $90" onclick="add_element(this)">
+                                        <label class="input-group-text" style="height: 39px;" for="friend 4 $90">90</label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" title="friend 4 $160" onclick="add_element(this)" id="friend 4 $160">
+                                        <label class="input-group-text" style="height: 39px;" for="friend 4 $160">160</label>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- End Page 1 Content Table-->
+                </div>
+            </div>
+
+            <div class="book">
+                <div class="face-front" style="overflow: auto;">
+                    <h1>Non Veg</h1>
+                    <!-- Top Menu -->
+                    <div class="btn-group" style="float: right; margin-right: 74px;">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Choose...
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="#Non_noodles"> <button class="dropdown-item" type="button">Noodles</button></a>
+                            <a href="#Non_Manchurian"><button class="dropdown-item"
+                                    type="button">Manchurian</button></a>
+                            <a href="#Non_Chinese"> <button class="dropdown-item" type="button">Chinese
+                                    Combo</button></a>
+                            <a href="#Non_Rice"> <button class="dropdown-item" type="button">Rice</button></a>
+                        </div>
+                    </div>
+                    <!-- End TOp Menu-->
+                    <!-- Page 1 Contents Table -->
+                    <table id="Non_noodles" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Noodles</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="Non_Manchurian" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Manchurian</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table id="Non_Chinese" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Chinese</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table id="Non_Rice" class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Rice</th>
+                                <th scope="col">half</th>
+                                <th scope="col">Semi-Half</th>
+                                <th scope="col">Full</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 1</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Name 12332</th>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- End Page 1 Content Table-->
+
+                </div>
+
+                <!-- Last Page Bill -->
+                <div class="face-back">
+                    <div class="shadow-lg p-3 mb-5 bg-white rounded">Bill Rececipt</div>
+                    <!-- Recipt Start -->
+                    <!-- Restro INfo-->
+                    <div class="shadow-sm p-3 mb-5 bg-white rounded ">
+                        <!-- Top Logo Here -->
+                        <h2 style="margin-left: 10%;">Restros Name </h2>
+                    </div>
+                    <!-- End Restro info-->
+                  
+                    <!-- Bill Content-->
+                    <div class="row overflow-auto" style="height: 44%;width: 99.9%;" id="bill">
+                        <!--iTEM 1
+                        <label for="inputEmail3" class="col-sm-9 col-form-label">Save articles, videos
+                            .......................................</label>
+                        <div class="col-sm-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text" style="height: 39px;">$</div>
+                                <label class="form-control" id="inputEmail3">100</label>
+
+                            </div>
+                        </div>
+                         End Item 1-->
+
+                    </div>
+                    <!-- End Bill Content-->
+
+                    <!--Total-->
+                    <div class="row" style="margin-top: 71px;" id="payable">
+                      <!--  <label for="inputEmail3" class="col-sm-9 col-form-label">PAYABLE AMOUNT ..........</label>
+                        <div class="col-sm-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">$250</div>
+                            </div>
+                        </div>
+                    -->
+
+                    </div>
+                    <!-- End Total-->
+                    <!-- End Recipt -->
+                </div>
+                <!-- End Last Page Bill-->
+            </div>
+        </div>
+    </div>
