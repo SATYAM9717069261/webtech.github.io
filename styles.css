@@ -109,7 +109,7 @@ p{
 	border-bottom-right-radius: 3px;
 }
 #portada{
-	background: url('../Front_page.jpg');
+	background-image: url('Front_page.jpg');
 }
 #portada, #portada-back{
 	background-size: 100% 100%;
