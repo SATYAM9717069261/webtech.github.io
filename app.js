@@ -121,7 +121,7 @@ function menu_close() {
 //Side Bill Show 
 function side_bill_show() {
 	var bill_dict={};
-	document.getElementById("book_container").classList.remove("col-7;
+	document.getElementById("book_container").classList.remove("col-7");
 	document.getElementById("book_container").style.marginLeft="35px";
 	document.getElementById("side_bill").style.display="block";
 
